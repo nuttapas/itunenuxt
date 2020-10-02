@@ -1,17 +1,17 @@
 <template>
   <v-row justify="center" align="center">
     <v-col cols="12" sm="8" md="6">
-      <Series />
+      <itune />
     </v-col>
   </v-row>
 </template>
 
 <script>
-import Series from '@/pages/Series.vue'
+import itune from '@/pages/itune.vue'
 
 export default {
   components: {
-    Series,
+    itune,
   },
 }
 </script>
