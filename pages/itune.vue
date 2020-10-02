@@ -10,7 +10,7 @@
         placeholder="Search"
         v-model="textInput"
       />
-      <button @click="getitem" elevation="2">Search</button>
+      <button @click="getitem()" elevation="2">Search</button>
     </center>
     <v-chip-group column>
     <v-card 

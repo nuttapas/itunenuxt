@@ -1,5 +1,5 @@
 <template>
-  <v-app id="book"  >
+  <v-app>
     <v-navigation-drawer
       v-model="drawer"
       :mini-variant="miniVariant"
@@ -77,8 +77,4 @@ export default {
 }
 </script>
 <style>
-#book {
-  background-image:url('https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/135081478/original/8ab6c47bd141a4d24b10a16548f768d1f77c0a53/make-the-best-quality-background-music-for-your-song.jpeg') ;
-  background-size: cover;
-}
 </style>
